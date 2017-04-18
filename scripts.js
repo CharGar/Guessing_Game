@@ -23,22 +23,13 @@ $(document).ready(function(){
       }
 
 
-    // end if
-// function clickRando(){
-// // $('.pic').on('click').append(rando);
-//   $('#name').append(rando);
-//   console.log($('#name').append(rando));
-//
-// }
+
 
 });
 
 
-// function checkname(){
-//
-//
-//
-// };
+
+
 
 
 
@@ -47,10 +38,3 @@ $(document).ready(function(){
 
 
 });
-
-// function randomNumber(min, max){
-//     return Math.floor(Math.random() * (1 + max - min) + min);
-// }
-//
-//
-// console.log(randomNumber);
