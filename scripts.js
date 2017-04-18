@@ -8,16 +8,16 @@ $(document).ready(function(){
 
 
   console.log('jQuery test');
-  $('#name').text(rando);
+  $('#name').text(rando); //add arr to span
+
   $('.pic').on('click', function(){
-  $(this).data('name');
-  console.log($(this).data ('name'));
-  // clickRando();
-console.log($("#name").text());
+
     if( $(this).data('name') === $("#name").text()) {
 
         alert('You Are Correct!!');
-      }else{
+
+      } else {
+
         alert('You Are Wronger!!');
 
       }
