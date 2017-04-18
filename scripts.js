@@ -1,20 +1,39 @@
 console.log('test');
-var people = ['Colin', 'Charlie', 'Jorge', 'Ryan'];
+var people = ['colin', 'charlie', 'jorge', 'ryan'];
 
 var rando = people[Math.floor(Math.random()*people.length)];
 
 
 $(document).ready(function(){
+
+
   console.log('jQuery test');
+  $('#name').text(rando);
+  $('.pic').on('click', function(){
+  $(this).data('name');
+  console.log($(this).data ('name'));
+  // clickRando();
+console.log($("#name").text());
+    if( $(this).data('name') === $("#name").text()) {
 
-$('#name').text(rando);
+        alert('You Are Correct!!');
+      }else{
+        alert('You Are Wronger!!');
+
+      }
 
 
-$('.pic').on('click', function(){
+    // end if
+// function clickRando(){
+// // $('.pic').on('click').append(rando);
+//   $('#name').append(rando);
+//   console.log($('#name').append(rando));
+//
+// }
 
-$(this).data('name');
-console.log($(this).data ('name'));
 });
+
+
 // function checkname(){
 //
 //
