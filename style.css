@@ -1,14 +1,29 @@
 h1 {
-  color:blue
+  color:pink;
+  text-align:center;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px black;
+}
+p{
+  color: yellow;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+  font-size: 60px;
 }
 
 img {
   width: 200px;
   height: 200px;
+  z-index: 2;
 
 }
 
 div {
-
+  border:2px solid black;
   display: inline-block;
+  box-shadow: 5px 5px 5px yellow;
+}
+
+body{
+  background-image: url('images.jpg');
 }
